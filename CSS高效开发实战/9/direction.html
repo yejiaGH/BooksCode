@@ -1,0 +1,37 @@
+<html>
+<style>
+  .container1{
+    margin:30px;
+    display: -webkit-box;
+    -moz-box-orient:inline-axis; -webkit-box-orient:inline-axis; -o-box-orient:inline-axis; box-orient:inline-axis; 
+    width:300px;
+    height:300px;
+  }
+
+   .container2{
+    margin:30px;
+    display: -webkit-box;
+  -moz-box-orient:block-axis; -webkit-box-orient:block-axis; -o-box-orient:block-axis; box-orient:block-axis; 
+    width:300px;
+    height:300px;
+  }
+  .left{-webkit-box-flex:1;background-color: red;}
+  .main{-webkit-box-flex:2;background-color: green;}
+  .right{-webkit-box-flex:1;background: blue;}
+</style>
+<div style="float:left">
+  <div class="container1">
+    <div class="left"></div>
+    <div class="main"></div>
+    <div class="right"></div>
+  </div>
+</div>
+
+<div style="float:left">
+  <div class="container2">
+    <div class="left"></div>
+    <div class="main"></div>
+    <div class="right"></div>
+  </div>
+</div>
+</html>

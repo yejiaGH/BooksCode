@@ -1,0 +1,156 @@
+<head>
+  <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+  <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.js"></script>
+  <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.css" rel="stylesheet">
+</head>
+<body style="margin:20px">
+  <div class="container">
+    <h1 class="text-hide">Custom heading</h1>
+    <div class="row">
+      <div class="col-xs-12 col-sm-3 col-md-5 col-lg-4">
+        <h1>体育新闻</h1>
+        <h1>娱乐新闻</h1>
+        <h1>经济新闻</h1>
+      </div>
+      <div class="col-xs-12 col-sm-9 col-md-7 col-lg-8">
+        <h2>段落</h2>
+        <p class="lead">“魔兽” 德怀特-霍华德贡献25分7个篮板，其中罚球24罚17中，成功破解了掘金队的“砍兽”战术</p>
+        <p>
+        火箭其他球员数据，钱德勒-帕森斯拿到20分6个篮板3次助攻；詹姆斯-哈登17分9次助攻5个篮板；林书豪拿到16分7次助攻4个篮板；多纳塔斯-莫蒂埃尤纳斯拿到12分3个篮板。</p>
+        <p>掘金这边，泰-劳森拿到28分17次助攻的大号两双数据；JJ-希克森拿到14分8个篮板；肯尼思-法里德8分10个篮板。替补方面，威尔森-钱德勒拿到14分3个篮板；季莫费-莫兹戈夫拿到9分10个篮板。</p>
+        </br>
+
+        <h2>表单元素</h2>
+        <h3>基础表单</h3>
+        <form role="form">
+          <div class="form-group">
+            <label for="exampleInputEmail1">邮箱地址</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="请输入邮箱">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">密 码</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入密码">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputFile">文件上传</label>
+            <input type="file" id="exampleInputFile">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> 请勾选
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">提 交</button>
+        </form>
+        
+        <h3>水平排列表单</h3>
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">邮 箱：</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="请输入邮箱">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">密 码：</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="请输入密码">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> 记住密码
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default">登 录</button>
+            </div>
+          </div>
+        </form>
+        
+        <h3>行内表单</h3>
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail2">邮 箱：</label>
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="请输入邮箱">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputPassword2">密 码：</label>
+            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="请输入密码">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> 记住密码
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">登 录</button>
+        </form>
+
+
+        <h2>表格</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>姓</th>
+              <th>名</th>
+              <th>昵称</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>李</td>
+              <td>四</td>
+              <td>拉里</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>王</td>
+              <td>五</td>
+              <td>博德</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>赵</td>
+              <td>四</td>
+              <td>詹姆斯</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>按钮</h2>
+        <p>
+          <button type="button" class="btn btn-default">默认</button>
+          <button type="button" class="btn btn-primary">主要</button>
+          <button type="button" class="btn btn-success">成功</button>
+          <button type="button" class="btn btn-info">信息</button>
+          <button type="button" class="btn btn-warning">警告</button>
+          <button type="button" class="btn btn-danger">危险</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-primary btn-lg">大号按钮</button>
+          <button type="button" class="btn btn-default btn-lg">大号按钮</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-primary">默认尺寸</button>
+          <button type="button" class="btn btn-default">默认尺寸</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-primary btn-sm">小号按钮</button>
+          <button type="button" class="btn btn-default btn-sm">小号按钮</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-primary btn-xs">更小的按钮</button>
+          <button type="button" class="btn btn-default btn-xs">更小的按钮</button>
+        </p>
+
+      </div>
+    </div>
+  </div>
+</body>

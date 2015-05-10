@@ -1,0 +1,11 @@
+.hidden{
+  display: none;
+}
+#page-right{
+  float:right;
+  margin: 0;
+  display: inline
+}
+td a{
+  padding: 10px
+}

@@ -1,0 +1,183 @@
+<html>
+  <head>
+    <link href="http://cdn.bootcss.com/twitter-bootstrap/3.0.2/css/bootstrap.css" rel="stylesheet">
+    <style>img{width:100%; height: auto;}</style>
+  </head>
+  <body style="margin:20px">
+    <div class="container">
+
+      <h2>模态对话框插件</h2><hr>
+      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+      </button>
+
+      <!-- Modal -->
+      <div class="modal" id="myModal" >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">对话框标题</h4>
+            </div>
+            <div class="modal-body">
+              模态对话框示例
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+              <button type="button" class="btn btn-primary">保存</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+
+      <h2>下拉菜单插件</h2><hr>
+      <div class="dropdown">
+        <a data-toggle="dropdown" href="#" class="btn btn-primary"> Dropdown trigger  <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+          <li><a href="#">test1</a></li>
+          <li><a href="#">test2</a></li>
+          <li><a href="#">test3</a></li>
+          <li><a href="#">test4</a></li>
+        </ul>
+      </div>
+
+      <h2>标签页切换插件</h2><hr>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#home" data-toggle="tab">首页</a></li>
+        <li><a href="#profile" data-toggle="tab">概述</a></li>
+        <li><a href="#messages" data-toggle="tab">信息</a></li>
+        <li><a href="#settings" data-toggle="tab">设置</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="home">
+          <h3>欢迎来到Bootstrap 3的jQuery插件测试</h3>
+        </div>
+        <div class="tab-pane" id="profile">
+          <p>这里用于提供Bootstrap 3的jQuery插件的测试用例，并提供讲解</p>
+        </div>
+        <div class="tab-pane" id="messages">信息</div>
+        <div class="tab-pane" id="settings">设置</div>
+      </div>
+
+      <h2>Tooltip插件</h2><hr>
+      <!-- Tooltip, 必须显式的调用 $('.btn').tooltip(); -->
+      <a href="#" data-toggle="tooltip" data-placement="right" title="在右侧显示提示内容" class="btn btn-primary">工具提示</a>
+
+      <h2>点击弹出框插件</h2><hr>
+      <!-- Tooltip, 必须显式的调用 $('.btn').tooltip(); -->
+      <a href="javascript:void(0);" class="btn btn-lg btn-danger" data-toggle="popover" title="" data-content="采用了点击事件触发，相比Tooltip可以显示更多、更正式的内容，并且可以配置更多样式。" data-original-title="弹出框的应用">点击了解更多....</a>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2>折叠插件</h2><hr>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                Collapsible Group Item #1
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                Collapsible Group Item #2
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                Collapsible Group Item #3
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+        simple collapsible
+      </button>
+
+      <div id="demo" class="collapse in">...</div>
+
+      <h2>轮播插件</h2><hr>
+      <div class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ul>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="http://i3.hunantv.com/p1/20130412/093344295.jpg" alt="...">
+          </div>
+          <div class="item">
+            <img src="http://www.hq.xinhuanet.com/photo/2013-01/22/114459708_61n.jpg" alt="...">
+          </div>
+          <div class="item">
+            <img src="http://pigimg.zhongso.com/space/gallery/infoimgs/qz/qznews360/20110113/2011011310261455035.jpg" alt="...">
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+
+    </div>
+
+    <h2>警告框</h2><hr>
+    <div class="alert alert-danger fade in">警告，服务器挂了！
+      <a class="close" data-dismiss="alert" href="#" >X</a>
+    </div>
+
+    <h2>按钮</h2><hr>
+    <button type="button" id="fat-btn" data-loading-text="loading" class="btn btn-primary">提交</button>
+    <button type="button" id="loading-example-btn" data-loading-text="Loading..." class="btn btn-primary"> 提交 </button>
+
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.2/js/bootstrap.js"></script>
+    <script>
+      $('.btn').tooltip();
+      $('.btn-danger').popover();
+      $('#loading-example-btn').click(function () {
+        var btn = $(this)
+        btn.button('loading')
+      });
+</script>
+    </script>
+  </body>
+</html>

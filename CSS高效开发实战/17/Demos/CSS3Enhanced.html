@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS 3样式示例</title>
+
+<style type="text/css">
+#round {
+    padding:10px; width:300px; height:50px;
+    border: 5px solid #dedede;     /*指定边框*/
+    -moz-border-radius: 15px;      /* 兼容Firefox浏览器*/
+    -webkit-border-radius: 15px;   /* 兼容Safari和Chrome浏览器 */
+    border-radius:15px;            /* W3C标准语法*/
+	behavior:url(../js/PIE.htc);   /*让IE的早期版本也支持*/
+	/*-------------------------*/
+	-moz-box-shadow:-5px -5px 5px #999 inset;     /* 兼容Firefox3.6+ */
+	-webkit-box-shadow:-5px -5px 5px #999 inset;  /* 兼容Chrome5+, Safari5+ */
+	box-shadow:-5px -5px 5px #999 inset;          /* 标准写法*/
+}
+#round1 {
+    padding:10px; width:300px; height:50px;
+    background:#FC9;              /*不指定边框，仅指定背景*/
+    -moz-border-radius: 15px;     /* 兼容Firefox浏览器*/
+    -webkit-border-radius: 15px;  /* 兼容Safari和Chrome浏览器 */ 
+    border-radius:15px;            /* W3C标准语法*/
+	behavior:url(../js/PIE.htc);
+	/*-------------------------*/
+	-moz-box-shadow:-5px -5px 5px #999 inset;             /* For Firefox3.6+ */
+	-webkit-box-shadow:-5px -5px 5px #999 inset;          /* For Chrome5+, Safari5+ */
+	box-shadow:-5px -5px 5px #999 inset;                  /* For Latest Opera */		
+}
+</style>
+</head>
+
+<body>
+<div id="round"></div>
+<br/><br/>
+<div id="round1"></div>
+</body>
+</html>

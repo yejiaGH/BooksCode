@@ -1,0 +1,289 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation框架示例代码</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body style="margin-bottom: 100px">
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>欢迎使用Foundation</h1><hr>
+      </div>
+      <div class="large-12 columns">
+        <h3>Foundation的标题</h3>
+        <div class="panel callout">
+          <h1>一级标题</h1>
+          <h2>二级标题</h2>
+          <h3>三级标题</h3>
+          <h4>四级标题</h4>
+          <h5>五级标题</h5>
+          <h6>六级标题</h6>
+        </div>
+
+        <h3>Foundation的段落</h3>
+          <div class="panel callout row">
+            <div class="small-6 columns">
+              <p>在老鹰和步行者的第七场生死战中，老鹰全队三分球44投11中，创下NBA季后赛单场三分球出手纪录。此前的纪录是03年季后赛西部半决赛小牛对阵国王时的42次出手，那场比赛有两个加时。
+该轮系列赛，老鹰在三分线外230投79中，两项均为季后赛单轮系列赛纪录。此前的出手纪录是06年西部半决赛太阳的203次，命中纪录是太阳和95年东部决赛魔术的77个。</p>
+            </div>
+            <div class="small-6 columns">
+              在老鹰和步行者的第七场生死战中，老鹰全队三分球44投11中，创下NBA季后赛单场三分球出手纪录。此前的纪录是03年季后赛西部半决赛小牛对阵国王时的42次出手，那场比赛有两个加时。
+该轮系列赛，老鹰在三分线外230投79中，两项均为季后赛单轮系列赛纪录。此前的出手纪录是06年西部半决赛太阳的203次，命中纪录是太阳和95年东部决赛魔术的77个。
+            </div>
+          </div>
+        </div>
+
+        <h3>Foundation的列表：</h3>
+        <div class="panel callout row">
+          <h4>单行的列表</h4>
+          <div class="small-12 columns">
+            <ul class="inline-list">
+              <li><a href="#">链接 1</a></li>
+              <li><a href="#">链接 2</a></li>
+              <li><a href="#">链接 3</a></li>
+              <li><a href="#">链接 4</a></li>
+              <li><a href="#">链接 5</a></li>
+            </ul>
+          </div>
+          <h4>无序列表的四种样式：</h4>
+          <div class="small-3 columns">
+            <ul class="no-bullet">
+              <li>列表项</li>
+              <li>列表项</li>
+              <li>列表项</li>
+            </ul>
+          </div>
+          <div class="small-3 columns">
+            <ul class="disc">
+              <li>列表项</li>
+              <li>列表项</li>
+              <li>列表项</li>
+            </ul>
+          </div>
+          <div class="small-3 columns">
+            <ul class="circle">
+              <li>列表项</li>
+              <li>列表项</li>
+              <li>列表项</li>
+            </ul>
+          </div>
+          <div class="small-3 columns">
+            <ul class="square">
+              <li>列表项</li>
+              <li>列表项</li>
+              <li>列表项</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Foundation的按钮</h3>
+        <a href="#" class="button">默认的按钮样式</a>
+        <a href="#" class="button">鼠标移上时的样式</a><br>
+        <button class="button radius">圆角按钮</button>
+        <button class="button round">圆弧按钮</button> 
+        <a href="#" data-dropdown="drop1" class="button dropdown">下拉按钮</a><br>
+        <ul id="drop1" data-dropdown-content class="f-dropdown">
+          <li><a href="#">这是一个链接</a></li>
+          <li><a href="#">这是另一个链接</a></li>
+          <li><a href="#">这是另一个链接</a></li>
+        </ul>
+        <a href="#" class="button expand">整行按钮</a>
+        <ul class="button-group">   
+          <li><a href="#" class="button">按钮一</a></li>   
+          <li><a href="#" class="button">按钮二</a></li>   
+          <li><a href="#" class="button">按钮三</a></li> 
+        </ul>
+        <ul class="button-group round">   
+          <li><a href="#" class="button">按钮一</a></li>   
+          <li><a href="#" class="button">按钮二</a></li>   
+          <li><a href="#" class="button">按钮三</a></li> 
+        </ul><br>
+        <ul class="button-group radius">   
+          <li><a href="#" class="button">按钮一</a></li>   
+          <li><a href="#" class="button">按钮二</a></li>   
+          <li><a href="#" class="button">按钮三</a></li> 
+        </ul>
+
+        <h3>Foundation的面板</h3>
+        <div class="large-6 columns">
+          <div class="panel">
+            <h3>这是一个常规的面板样式</h3>
+            <p>轻松的构造一个视觉上更为优先的区域，让内容看起来更为醒目</p>
+          </div>
+        </div>
+        <div class="large-6 columns">
+          <div class="panel callout radius">
+            <h3>这是一个callout面板</h3>
+            <p>视觉上更为引人注目，适用于一些需要着重显示的区域</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+  
+        <h3>Foundation的导航</h3>
+        <h4>面包屑导航：</h4>
+        <ul class="breadcrumbs">
+          <li><a href="#">首页</a></li>
+          <li><a href="#">特性</a></li>
+          <li class="unavailable"><a href="#">基因拼接</a></li>
+          <li class="current"><a href="#">克隆</a></li>
+        </ul>
+        <h4>侧边栏导航：</h4>
+        <ul class="side-nav">
+          <li class="active"><a href="#">链接一</a></li>   <!-- 为<li>元素添加.active类表示已选中-->
+          <li><a href="#">链接二</a></li>   
+          <li><a href="#">链接三</a></li>   
+          <li><a href="#">链接四</a></li> 
+        </ul>
+        <h4>子导航：</h4>
+        <dl class="sub-nav">
+          <dt>过滤器:</dt>
+          <dd class="active"><a href="#">全部</a></dd>
+          <dd><a href="#">进行中</a></dd>
+          <dd><a href="#">待定</a></dd>
+          <dd><a href="#">暂停</a></dd>
+        </dl>
+        <h4>头部侧边导航</h4>
+        <div class="off-canvas-wrap docs-wrap move-right" data-offcanvas="">
+          <div class="inner-wrap">
+            <nav class="tab-bar">
+              <section class="left-small">
+                <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+              </section>
+
+              <section class="right tab-bar-section">
+                <h1 class="title">NBA新闻</h1>
+              </section>
+
+            </nav>
+
+            <aside class="left-off-canvas-menu">
+              <ul class="off-canvas-list">
+                <li><label>NBA新闻</label></li>
+                <li><a href="#">马刺</a></li>
+                <li><a href="#">小牛</a></li>
+                <li><a href="#">火箭</a></li>
+                <li><a href="#">爵士</a></li>
+                <li><a href="#">热火</a></li>
+                <li><label>湖人</label></li>
+                <li><a href="#">76人</a></li>
+                <li><a href="#">凯尔特人</a></li>
+                <li><label>Second Foundation</label></li>
+                <li><a href="#">Search by the Mule</a></li>
+                <li><a href="#">Search by the Foundation</a></li>
+              </ul>
+            </aside>
+
+            <section class="main-section" style="margin-left:25px">
+              <div class="row">
+                <div class="large-12 columns">
+                  <br>
+                  <h3>马刺抢七战胜小牛</h3>
+                  <p>德州两强，牛马之战进行到第七回合，这场西部第一的马刺再也没有疏忽，他们从开局起就牢牢掌握住了场上主动，从第一节开始将分差越拉越大，分差一度来到30分以上，最终马刺以119-96大胜小牛取得抢七胜利，昂首挺进西部半决赛。</p>
+                  <p>马刺的“GDP”组合托尼-帕克、蒂姆-邓肯和马努-吉诺比利三人在上半场一共拿到了47分，比小牛全队还要多得1分。他们三人在上半场合计23投18中，命中率高达78.3%。</p>
+
+                  <p>全场比赛，马刺119-96击败小牛，晋级次轮，他们的下一个对手将是4-2淘汰了火箭的开拓者队。 </p>
+
+                </div>
+              </div>
+            </section>
+
+          <a class="exit-off-canvas"></a>
+
+          </div>
+        </div>
+
+        <h3>提示信息</h3>
+        <div data-alert class="alert-box success radius">
+          这是一个带圆角的成功提示
+          <a href="#" class="close">&times;</a>
+        </div>
+
+        <div data-alert class="alert-box warning round">
+          这是一个圆弧角的警告提示
+          <a href="#" class="close">&times;</a>
+        </div>
+
+        <div data-alert class="alert-box info radius">
+          这是一个圆角的消息提示
+          <a href="#" class="close">&times;</a>
+        </div>
+
+        <div data-alert class="alert-box alert round">
+          This is an alert - alert that is rounded.
+          <a href="#" class="close">&times;</a>
+        </div>
+
+        <div data-alert class="alert-box secondary">
+          This is a secondary alert.
+          <a href="#" class="close">&times;</a>
+        </div>
+        
+        <h3>标签页</h3>
+        <dl class="tabs" data-tab>
+          <dd class="active"><a href="#panel2-1">标签一</a></dd>
+          <dd><a href="#panel2-2">标签二</a></dd>
+          <dd><a href="#panel2-3">标签三</a></dd>
+          <dd><a href="#panel2-4">标签四</a></dd>
+        </dl>
+        <div class="tabs-content">
+          <div class="content active" id="panel2-1">
+            <p>小牛数据：德克-诺维茨基22分9篮板、德文-哈里斯17分、蒙塔-埃利斯12分、文斯-卡特10分4篮板4助攻。</p>
+          </div>
+          <div class="content" id="panel2-2">
+            <p>马刺数据：托尼-帕克32分4篮板4助攻、马努-吉诺比利20分5助攻6抢断、丹尼-格林16分、蒂姆-邓肯15分8篮板、科怀-伦纳德15分6篮板、鲍里斯-迪奥8分7篮板5助攻。</p>
+          </div>
+          <div class="content" id="panel2-3">
+            <p>Third panel content goes here...</p>
+          </div>
+          <div class="content" id="panel2-4">
+            <p>Fourth panel content goes here...</p>
+          </div>
+        </div>
+
+        <h3>手风琴效果</h3>
+        <dl class="accordion" data-accordion="">
+          <dd>
+            <a href="#panel1b">琴键一</a>
+            <div id="panel1b" class="content">
+              猛龙数据：凯尔-洛瑞拿到28分7个篮板3次助攻、阿米尔-约翰逊在登场22分钟里拿到20分10个篮板、同时领到6次犯规、德马尔-德罗赞18分6次助攻、特伦斯-罗斯11分2次抢断、替补帕特里克-帕特森16分8个篮板。
+            </div>
+          </dd>
+          <dd>
+            <a href="#panel2b">琴键二</a>
+            <div id="panel2b" class="content">
+              篮网数据：乔-约翰逊拿到26分4次助攻4个篮板、凯文-加内特12分11个篮板、德隆-威廉姆斯13分4次助攻、保罗-皮尔斯10分4个篮板、替补马库斯-索顿命中4记三分砍下17分6个篮板。
+            </div>
+          </dd>
+          <dd>
+            <a href="#panel3b">琴键三</a>
+            <div id="panel3b" class="content">
+              Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </dd>
+        </dl>
+
+        <h3>模态对话框</h3>
+        <a href="#" data-reveal-id="myModal">点击弹出模态框</a>
+        <div id="myModal" class="reveal-modal" data-reveal>
+          <h2>欢庆胜利！</h2>
+          <p class="lead">帕克32分，马刺晋级次轮</p>
+          <p>德州两强，牛马之战进行到第七回合，这场西部第一的马刺再也没有疏忽，他们从开局起就牢牢掌握住了场上主动，从第一节开始将分差越拉越大，分差一度来到30分以上，最终马刺以119-96大胜小牛取得抢七胜利，昂首挺进西部半决赛。</p>
+          <a class="close-reveal-modal">&#215;</a>
+        </div>
+
+        <h3>工具提示</h3>
+        <span data-tooltip class="has-tip" title="工具提示是非常好用的工具，可以放心地使用它!">扩展信息</span>
+
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
